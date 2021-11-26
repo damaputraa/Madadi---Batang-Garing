@@ -74,7 +74,7 @@ function showScores() {
 	element.innerHTML = gameOverHTML;
 };
 
-// create questions here
+// daftar pertanyaan disini
 var questions = [
 	new Question("Manakah dibawah ini yang merupakan pengetian/ makna dari Batang Garing ", ["A. Pohon Penghidupan", "B. Bintang Kehidupan","C. Pohon Kebijakan", "D. Pohon Kehidupan"], "D. Pohon Kehidupan"),
 
