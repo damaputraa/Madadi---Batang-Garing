@@ -76,7 +76,7 @@ function showScores() {
 
 // daftar pertanyaan disini
 var questions = [
-	new Question("Manakah dibawah ini yang merupakan pengetian/ makna dari Batang Garing ", ["A. Pohon Penghidupan", "B. Bintang Kehidupan","C. Pohon Kebijakan", "D. Pohon Kehidupan"], "D. Pohon Kehidupan"),
+	new Question("Manakah dibawah ini yang merupakan pengertian/ makna dari Batang Garing ", ["A. Pohon Penghidupan", "B. Bintang Kehidupan","C. Pohon Kebijakan", "D. Pohon Kehidupan"], "D. Pohon Kehidupan"),
 
 	new Question("Batang Garing Memiliki bentuk batang yang unik yaitu seperti ", ["A. Pedang Excalibur", "B. Mata Tombak Lurus Ke Atas","C. Palu Godam", "D. Trisula / Tombak Poseidon"], "B. Mata Tombak Lurus Ke Atas"),
 
