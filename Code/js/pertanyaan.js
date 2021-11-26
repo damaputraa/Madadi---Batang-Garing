@@ -1,11 +1,11 @@
-function Quiz(questions) {
+function Quiz(pertanyaan) {
 	this.score = 0;
-	this.questions = questions;
+	this.pertanyaan = pertanyaan;
 	this.questionIndex = 0;
 }
 
 Quiz.prototype.getQuestionIndex = function() {
-	return this.questions[this.questionIndex];
+	return this.pertanyaan[this.questionIndex];
 }
 
 Quiz.prototype.guess = function(answer) {
@@ -17,7 +17,7 @@ Quiz.prototype.guess = function(answer) {
 }
 
 Quiz.prototype.isEnded = function() {
-	return this.questionIndex === this.questions.length;
+	return this.questionIndex === this.pertanyaan.length;
 }
 
 function Question(text, choices, answer) {
@@ -64,7 +64,7 @@ function guess(id, guess) {
 function showProgress() {
 	var currentQuestionNumber = quiz.questionIndex + 1;
 	var element = document.getElementById("progress");
-	element.innerHTML = "Pertanyaan " + currentQuestionNumber + " dari " + quiz.questions.length;
+	element.innerHTML = "Pertanyaan " + currentQuestionNumber + " dari " + quiz.pertanyaan.length;
 };
 
 function showScores() {
@@ -75,7 +75,7 @@ function showScores() {
 };
 
 // daftar pertanyaan disini
-var questions = [
+var pertanyaan = [
 	new Question("Manakah dibawah ini yang merupakan pengertian/ makna dari Batang Garing ", ["A. Pohon Penghidupan", "B. Bintang Kehidupan","C. Pohon Kebijakan", "D. Pohon Kehidupan"], "D. Pohon Kehidupan"),
 
 	new Question("Batang Garing Memiliki bentuk batang yang unik yaitu seperti ", ["A. Pedang Excalibur", "B. Mata Tombak Lurus Ke Atas","C. Palu Godam", "D. Trisula / Tombak Poseidon"], "B. Mata Tombak Lurus Ke Atas"),
@@ -99,7 +99,7 @@ var questions = [
 ];
 
 // buat quiz
-var quiz = new Quiz(questions);
+var quiz = new Quiz(pertanyaan);
 
 // tampil quiz
 populate();
