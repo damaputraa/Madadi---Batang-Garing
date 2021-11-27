@@ -94,7 +94,7 @@ var pertanyaan = [
 	
 	new Question("Pada bagian bawah batang garing ada guci berisi air suci, sering juga disebut sebagai sebuah pulau, pulau apakah itu ", ["A. Pulau Sabat", "B. Pulau Bangkuang","C. Pulau Bengaris", "D. Pulau Batu Nindan Tarung"], "D. Pulau Batu Nindan Tarung"),
 
-	new Question("Manakah dibawah ini yang merupakan pengertian/ makna dari Batang Garing ", ["A. Melambangkan 3 Maharaja", "B. Diciptakanya sebuah suku/leluhur","C. Lahirnya seorang anak", "D. Berakhirnya perangh"], "B. Diciptakanya sebuah suku/leluhur"),
+	new Question("Manakah dibawah ini yang merupakan pengertian/ makna dari Batang Garing ", ["A. Melambangkan 3 Maharaja", "B. Diciptakanya sebuah suku/leluhur","C. Lahirnya seorang anak", "D. Berakhirnya perang"], "B. Diciptakanya sebuah suku/leluhur"),
 
 ];
 
